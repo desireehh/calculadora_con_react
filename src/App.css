@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body{
+  background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 15px;
+  width: 100%;
+  height: 100vh;
+
 }
 
-.App-link {
-  color: #61dafb;
+.freeCodeCampLogo-contenedor{
+  width: 100%;
+  height: 50px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.freeCodeCamp-logo{
+  height: 40px;
+}
+
+.calculadora-contenedor{
+  width: 400px;
+  height: 600px;
+  background-color: aqua;
+  border-radius: 15px;
+  border: 5px solid white;
+  padding: 14px;
+}
+
+.fila{
+  display: flex;
+  
 }
